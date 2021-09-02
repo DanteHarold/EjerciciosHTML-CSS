@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 1300px;
+    height: 700px;
+    /* background-color: beige; */
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+.header{
+    height: 15%;
+    background-color : brown;
+    margin: 1em;
+    border-radius: 1em;
+}
+.nav{
+    height: 10%;
+    background-color : brown;
+    margin: 1em;
+    border-radius: 1em;
+}
+.content__main{
+    height: 50%;
+    /* background-color : brown; */
+    margin: 1em;
+    position: relative;
+}
+.footer{
+    height: 15%;
+    background-color : brown;
+    margin: 1em ;
+    border-radius: 1em;
+}
+.section{
+    width: 68%;
+    height: 90%;
+    background-color: coral;
+    border-radius: 1em;
+    position: absolute;
+    margin: 1em;
+}
+.aside{
+    width: 28%;
+    height: 90%;
+    background-color: coral;
+    border-radius: 1em;
+    position: absolute;
+    right: 0;
+    margin: 1em;
+}
+
+.article{
+    width: 96%;
+    height: 18%;
+    background-color: crimson;
+    margin: 0.7em;
+    border-radius: 1em;
+}
