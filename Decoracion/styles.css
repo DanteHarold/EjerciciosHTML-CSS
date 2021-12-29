@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #dad8d8;
+}
+.svg{
+    width: 70%;
+}
+.rojo-1,
+.rojo-2,
+.amarillo-1,
+.amarillo-2,
+.verde-1,
+.verde-2,
+.azul-1,
+.azul-2,
+.marron,
+.anaranjado-1,
+.anaranjado-2,
+.blanco-1,
+.blanco-2,
+.blanco-3,
+.blanco-4,
+.blanco-5,
+.blanco-6
+{
+    fill: transparent;
+    stroke: rgb(221, 112, 112);
+    stroke-width: 1.5px;
+    animation: effect-letter 2s linear forwards ;
+}
+.rojo-1{
+    /* Longitid de cada trazo */
+    stroke-dasharray: 250px;
+    /* Distanacion entre cada trazo de 10px */
+    stroke-dashoffset: -250px;
+    /* animation: effect-letter 2s linear forwards; */
+}
+.rojo-2{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.amarillo-1{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.amarillo-2{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.verde-1{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.verde-2{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.azul-1{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.azul-2{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.anaranjado-1{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.anaranjado-2{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.marron{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+.blanco-1,
+.blanco-2,
+.blanco-3,
+.blanco-4,
+.blanco-5,
+.blanco-6
+{
+    stroke-dasharray: 250px;
+    stroke-dashoffset: -250px;
+}
+@keyframes effect-letter{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
